@@ -1,12 +1,8 @@
-README (Run Steps)
-
-Include these sections in README.md:
-
-Project Overview
+--Project Overview
 
 Brief description of the console app, features, and database connection.
 
-Prerequisites
+--Prerequisites
 
 PostgreSQL 17 installed
 
@@ -18,7 +14,7 @@ Windows OS (or Linux, adapt paths)
 
 Database name: ride_sharing_system
 
-Setup Steps
+--Setup Steps
 
 Database
 
@@ -27,7 +23,7 @@ Run ride_sharing_schema.sql in pgAdmin or psql to create tables and seed data:
 psql -U postgres -d ride_sharing_system -f ride_sharing_schema.sql
 
 
-Build C++ App
+--Build C++ App
 
 Open project in Visual Studio
 
@@ -45,7 +41,7 @@ Console menu appears
 
 Follow menu prompts for CRUD operations
 
-Notes
+--Notes
 
 SQL injection is prevented using parameterized queries
 
